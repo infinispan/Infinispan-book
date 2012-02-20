@@ -7,7 +7,7 @@
    <packaging>pom</packaging>
    <name>Common Parent for Code Examples</name>
    <description>Common Parent for Code Examples for "Infinispan - the Open Source Data Grid Platform" by Packt Publishing</description>
-   <url>http://www.infinispan.org</url>
+   <url>http://github.com/infinispan/Infinispan-book</url>
    <organization>
       <name>Packt Publishing</name>
       <url>http://www.packtpub.com/</url>
@@ -30,13 +30,13 @@
       </developer>
    </developers>
    <scm>
-      <connection>scm:git:git@github.com:fmarchioni/Infinispan-book.git</connection>
-      <developerConnection>scm:git:git@github.com:fmarchioni/Infinispan-book.git</developerConnection>
-      <url>https://github.com/fmarchioni/Infinispan-book.git</url>
+      <connection>scm:git:git@github.com:infinispan/Infinispan-book.git</connection>
+      <developerConnection>scm:git:git@github.com:infinispan/Infinispan-book.git</developerConnection>
+      <url>https://github.com/infinispan/Infinispan-book.git</url>
    </scm>
    <issueManagement>
       <system>github</system>
-      <url>https://github.com/fmarchioni/Infinispan-book/issues</url>
+      <url>https://github.com/infinispan/Infinispan-book/issues</url>
    </issueManagement>
    <properties>
       <!-- Versions for dependencies -->

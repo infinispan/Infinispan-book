@@ -14,5 +14,5 @@
 These code samples are built using [Apache Maven](http://maven.apache.org).  You need Maven 3.0 or higher to run these samples.  You also need a [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/index.html), version 6 or higher.
 
 ### Bugs
-Please report any issues you may have with these code samples on [our issue tracker](https://github.com/fmarchioni/Infinispan-book/issues).
+Please report any issues you may have with these code samples on [our issue tracker](https://github.com/infinispan/Infinispan-book/issues).
 
