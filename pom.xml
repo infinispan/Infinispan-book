@@ -53,6 +53,35 @@
 
    <build>
       <plugins>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+            <version>2.2.2</version>
+         </plugin>
+         <!-- enforce java 1.6 and maven 2.1.0 -->
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-enforcer-plugin</artifactId>
+            <version>1.0.1</version>
+            <executions>
+               <execution>
+                  <id>enforce-java</id>
+                  <goals>
+                     <goal>enforce</goal>
+                  </goals>
+                  <configuration>
+                     <rules>
+                        <requireJavaVersion>
+                           <version>[1.6,)</version>
+                        </requireJavaVersion>
+                        <requireMavenVersion>
+                           <version>[3.0.0,)</version>
+                        </requireMavenVersion>
+                     </rules>
+                  </configuration>
+               </execution>
+            </executions>
+         </plugin>
          <!-- by default, compile to JDK 1.6 compatibility (individual modules and/or user can override) -->
          <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -66,7 +95,6 @@
          </plugin>
       </plugins>
    </build>
-
    <modules>
       <module>chapter2</module>
    </modules>
