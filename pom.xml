@@ -95,8 +95,12 @@
          </plugin>
       </plugins>
    </build>
+
+   <!-- Each chapter is a separate module -->
    <modules>
       <module>chapter2</module>
+      <module>chapter6</module>
+      <module>chapter7</module>
    </modules>
 
 </project>
