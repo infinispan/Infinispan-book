@@ -16,3 +16,11 @@ These code samples are built using [Apache Maven](http://maven.apache.org).  You
 ### Bugs
 Please report any issues you may have with these code samples on [our issue tracker](https://github.com/infinispan/Infinispan-book/issues).
 
+## Software requirements
+
+The following software is required to build and run the examples:
+
+* Sun JDK 6 (latest updates)
+* Apache Maven 3.0.x
+* Infinispan 5.1.3.FINAL (as dictated by the Maven POM files in this project)
+* While not strictly necessary, an integrated development environment (IDE) is strongly recommended.  Both [IntelliJ IDEA](http://www.jetbrains.com/idea/download/) and [Eclipse](http://www.eclipse.org/downloads/) are popular, open source and free Java IDEs.
