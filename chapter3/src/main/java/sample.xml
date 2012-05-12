@@ -1,0 +1,22 @@
+<infinispan>
+ <namedCache name="evictionCache">
+    <eviction
+        maxEntries="1000"
+        strategy="FIFO"
+     />
+     <expiration
+        wakeUpInterval="500"
+        lifespan="60000"
+        maxIdle="10000"
+     />
+
+    <loaders passivation="true">
+        <loader class="org.infinispan.loaders.file.FileCacheStore">
+           <properties>
+              <property name="location" value="${java.io.tmpdir}"/>
+           </properties>
+        </loader>
+     </loaders>
+
+ </namedCache>
+</infinispan>

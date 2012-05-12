@@ -1,0 +1,23 @@
+<infinispan>
+<global>
+    <transport 
+	        nodeName="Infinispan-Node1"
+           clusterName="infinispan-cluster" >
+    </transport> 
+ 
+</global>
+<namedCache name="clusteredCache">
+    <clustering mode="replication">
+ 
+         <stateRetrieval
+            timeout="240000"
+            fetchInMemoryState="false"
+            alwaysProvideInMemoryState="false"
+         />
+         <sync replTimeout="20000"/>
+ 
+      </clustering>
+
+</namedCache>
+
+</infinispan>
