@@ -18,7 +18,17 @@ public class ReadOnlyInterceptor extends BaseCustomInterceptor {
    protected Log getLog() {
       return LOG;
    }
-   
+
+   @Override
+   protected void start() {
+      LOG.info("Read-only interceptor starting up");
+   }
+
+   @Override
+   protected void stop() {
+      LOG.info("Read-only interceptor stopping");
+   }
+
    @Override
    public Object visitPutKeyValueCommand(InvocationContext ctx, PutKeyValueCommand cmd) {
       LOG.debug("Ignoring this call to enforce read-only behavior");
