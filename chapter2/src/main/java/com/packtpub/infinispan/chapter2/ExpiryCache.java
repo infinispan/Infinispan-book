@@ -6,8 +6,8 @@ import java.util.concurrent.TimeUnit;
 import org.infinispan.Cache;
 import org.infinispan.manager.DefaultCacheManager;
 
-import com.packtpub.infinispan.chapter2.model.Ticket;
-import com.packtpub.infinispan.chapter2.utils.IOUtils;
+import model.Ticket;
+import utils.IOUtils;
 
 public class ExpiryCache {
 

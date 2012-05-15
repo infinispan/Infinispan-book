@@ -98,6 +98,7 @@
 
    <!-- Each chapter is a separate module -->
    <modules>
+      <module>common</module>
       <module>chapter2</module>
       <module>chapter3</module>
       <module>chapter4</module>
