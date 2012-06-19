@@ -7,8 +7,8 @@ import java.util.UUID;
 import org.infinispan.Cache;
 import org.infinispan.manager.DefaultCacheManager;
 
-import com.packtpub.infinispan.chapter3.model.Ticket;
-import com.packtpub.infinispan.chapter3.utils.IOUtils;
+import model.Ticket;
+import utils.IOUtils;
 
 
 
