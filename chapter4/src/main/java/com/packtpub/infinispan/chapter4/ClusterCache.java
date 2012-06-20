@@ -6,8 +6,8 @@ import java.util.Set;
 import org.infinispan.Cache;
 import org.infinispan.manager.DefaultCacheManager;
 
-import com.packtpub.infinispan.chapter4.model.Ticket;
-import com.packtpub.infinispan.chapter4.utils.IOUtils;
+import model.Ticket;
+import utils.IOUtils;
 
 public class ClusterCache {
 
