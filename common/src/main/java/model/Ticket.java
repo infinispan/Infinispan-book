@@ -1,6 +1,6 @@
 package model;
 
-public class Ticket {
+public class Ticket implements java.io.Serializable {
    private String name;
    private String show;
 
